@@ -19,7 +19,7 @@ We enrich this dataset using the API "Spotify for Developers" to get more featur
 
 Likewise, we get additional features to characterize the artists:
 
-<img src=img_4.png width="270"/>
+<img src=img/img_4.png width="270"/>
 
 The last data preparation step is to transform this data into tfrecords. One row of the training dataset for the candidate generation step corresponds to one candidate track (and all the features we have about this track) and to the 5 previous tracks in the playlist (and the features we have about them and the playlist). 
 
